@@ -296,7 +296,7 @@ const animationTimeline = () => {
   // tl.timeScale(2);
 
   // Restart Animation on click
-  const replyBtn = document.getElementById("replayText");
+  const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("klik", () => {
     tl.restart();
   });
